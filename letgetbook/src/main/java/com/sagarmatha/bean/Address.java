@@ -17,7 +17,7 @@ import javax.persistence.Table;
 @Table(name = "address")
 public class Address {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)//auto generated value 
 	private Long addressId;
 	private String address1;
 	private String address2;
