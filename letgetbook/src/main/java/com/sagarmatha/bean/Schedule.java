@@ -19,9 +19,12 @@ import javax.persistence.Table;
 public class Schedule {
 	@Id
 	private Long employeeId;
-	Date date;
-	Time startTime;
-	Time endTime;
+	private Date date;
+	private String startTime;
+	private String endTime;
+	private String status;
+	private Long businessId;
+	
 	
 	/**
 	 * @return the employeeId
@@ -47,30 +50,56 @@ public class Schedule {
 	public void setDate(Date date) {
 		this.date = date;
 	}
+	
 	/**
 	 * @return the startTime
 	 */
-	public Time getStartTime() {
+	public String getStartTime() {
 		return startTime;
 	}
 	/**
 	 * @param startTime the startTime to set
 	 */
-	public void setStartTime(Time startTime) {
+	public void setStartTime(String startTime) {
 		this.startTime = startTime;
 	}
 	/**
 	 * @return the endTime
 	 */
-	public Time getEndTime() {
+	public String getEndTime() {
 		return endTime;
 	}
 	/**
 	 * @param endTime the endTime to set
 	 */
-	public void setEndTime(Time endTime) {
+	public void setEndTime(String endTime) {
 		this.endTime = endTime;
 	}
+	/**
+	 * @return the status
+	 */
+	public String getStatus() {
+		return status;
+	}
+	/**
+	 * @param status the status to set
+	 */
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	/**
+	 * @return the businessId
+	 */
+	public Long getBusinessId() {
+		return businessId;
+	}
+	/**
+	 * @param businessId the businessId to set
+	 */
+	public void setBusinessId(Long businessId) {
+		this.businessId = businessId;
+	}
+	
 	
 	
 

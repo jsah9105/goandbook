@@ -14,11 +14,13 @@ public class AppointFix {
 	
 	private Long appointId;
 	private Long customerId;
+	private Long customerName;
 	private Long serviceId;
 	private Date date;
-	private Time startTime;
+	private String startTime;
 	private String status;
 	private Long businessId;
+	private Long employeeId;
 	/**
 	 * @return the appointId
 	 */
@@ -68,16 +70,40 @@ public class AppointFix {
 		this.date = date;
 	}
 	/**
+	 * @return the customerName
+	 */
+	public Long getCustomerName() {
+		return customerName;
+	}
+	/**
+	 * @param customerName the customerName to set
+	 */
+	public void setCustomerName(Long customerName) {
+		this.customerName = customerName;
+	}
+	/**
 	 * @return the startTime
 	 */
-	public Time getStartTime() {
+	public String getStartTime() {
 		return startTime;
 	}
 	/**
 	 * @param startTime the startTime to set
 	 */
-	public void setStartTime(Time startTime) {
+	public void setStartTime(String startTime) {
 		this.startTime = startTime;
+	}
+	/**
+	 * @return the employeeId
+	 */
+	public Long getEmployeeId() {
+		return employeeId;
+	}
+	/**
+	 * @param employeeId the employeeId to set
+	 */
+	public void setEmployeeId(Long employeeId) {
+		this.employeeId = employeeId;
 	}
 	/**
 	 * @return the status

@@ -23,6 +23,7 @@ public class UserAccount {
 	private String state;
 	private int zipCode;
 	private String country;
+	private String gender;
 	/**
 	 * @return the customerId
 	 */
@@ -190,6 +191,18 @@ public class UserAccount {
 	 */
 	public void setCountry(String country) {
 		this.country = country;
+	}
+	/**
+	 * @return the gender
+	 */
+	public String getGender() {
+		return gender;
+	}
+	/**
+	 * @param gender the gender to set
+	 */
+	public void setGender(String gender) {
+		this.gender = gender;
 	}
 	
 	

@@ -14,7 +14,7 @@ import javax.ws.rs.core.MediaType;
 import com.sagarmatha.bean.Address;
 import com.sagarmatha.bean.Business;
 import com.sagarmatha.bean.SearchBusiness;
-import com.sagarmatha.bean.ServiceOrder;
+import com.sagarmatha.bean.SellerAccount;
 import com.sagarmatha.dao.SearchService;
 
 /**
@@ -23,112 +23,65 @@ import com.sagarmatha.dao.SearchService;
  */
 @Path("/search")
 public class SearchController {
-	
+
 	SearchService searchService = new SearchService();
-	
+
 	@POST
-	@Path("/businessInformation")
+	@Path("/businessSearch")
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Business> getBusinessRecord(SearchBusiness searchBusiness){
-		List<Address> listOfAddress = new ArrayList<Address>();
-		List<Business> businessList = new ArrayList<Business>();
+	public List<SellerAccount> getBusinessRecord(SearchBusiness searchBusiness){
+		
+		List<Long> listOfBusinessIdbyAddress = new ArrayList<Long>();
+		List<SellerAccount> businessList = new ArrayList<SellerAccount>();
+		List<Long> listofbusinessId= new  ArrayList<Long>();
+		List<SellerAccount> returnbusinessList = new ArrayList<SellerAccount>();
+		List<Long> getBusinessId = new ArrayList<Long>();
+		
 		if(searchBusiness.getCity() !=null){
-			
-			listOfAddress =searchService.getBusineesByCity(searchBusiness.getCity());
-		    businessList =	searchService.getBusineesName(listOfAddress);
+			listOfBusinessIdbyAddress =searchService.getBusineesByCity(searchBusiness.getCity());
+		    businessList =	searchService.getBusineesName(listOfBusinessIdbyAddress);
 		    
 		    if(businessList.size() == 0){
-		    Long serviceName =  searchService.getServiceListByServiceName(searchBusiness.getService());
-		    List<ServiceOrder> businessIdList =searchService.getBusineesIdFromServiceOrder(serviceName);
-		   
-		    if(listOfAddress.size() >= businessIdList.size() ){
-		    	for(Address user1 : listOfAddress) {
-		    	    for(ServiceOrder user2 : businessIdList) {
-		    	        if(user1.getBusinessId().equals(user2.getBusinessId())) {
-		    	            if(!user1.getBusinessId().equals(user2.getBusinessId())) {
-		    	            	//businessList.add(user2);
-		    	            }
-		    	        }
-		    	    }
-		    	}
-		    }else{
-		    	System.out.println("Location Not found");
+		    Long serviceNameId =  searchService.getServiceListByServiceName(searchBusiness.getService());
+			   if(serviceNameId != 0){
+			    listofbusinessId =searchService.getBusineesIdFromServiceOrder(serviceNameId);
+			    
+			    for (int i = 0; i < businessList.size(); i++) {
+		    		getBusinessId.add(Long.parseLong(businessList.get(i).getBusinessId()));
+				}
+			    
+		    	listofbusinessId.retainAll(getBusinessId);
+		    	returnbusinessList = searchService.getBusineesName(listofbusinessId);
+		    	return returnbusinessList;
+			    
+			   }
+			   else{
+				   return returnbusinessList;
+			   }
 		    }
-		    
-		    }
-			
-			
 		}else if(searchBusiness.getZipCode() != 0){
-			listOfAddress = searchService.getBusineesByZipCode(searchBusiness.getZipCode());
-			businessList =	searchService.getBusineesName(listOfAddress);
+			listOfBusinessIdbyAddress = searchService.getBusineesByZipCode(searchBusiness.getZipCode());
+			businessList =	searchService.getBusineesName(listOfBusinessIdbyAddress);
 			 if(businessList.size() == 0){
-				    Long serviceName =  searchService.getServiceListByServiceName(searchBusiness.getService());
-				    List<ServiceOrder> businessIdList =searchService.getBusineesIdFromServiceOrder(serviceName);
-				   
-				    if(listOfAddress.size() >= businessIdList.size() ){
-				    	for(Address user1 : listOfAddress) {
-				    	    for(ServiceOrder user2 : businessIdList) {
-				    	        if(user1.getBusinessId().equals(user2.getBusinessId())) {
-				    	            if(!user1.getBusinessId().equals(user2.getBusinessId())) {
-				    	            	//businessList.add(user2);
-				    	            }
-				    	        }
-				    	    }
-				    	}
-				    }else{
-				    	System.out.println("Location Not found");
+				    Long serviceId =  searchService.getServiceListByServiceName(searchBusiness.getService());
+				    if(serviceId != 0){
+				    	listofbusinessId =searchService.getBusineesIdFromServiceOrder(serviceId);
+				    	
+				    	for (int i = 0; i < businessList.size(); i++) {
+				    		getBusinessId.add(Long.parseLong(businessList.get(i).getBusinessId()));
+						}
+				    	
+				    	listofbusinessId.retainAll(getBusinessId);
+				    	returnbusinessList = searchService.getBusineesName(listofbusinessId);
+				    	return returnbusinessList;
+				    }
+				    else{
+				    	return returnbusinessList;
 				    }
 				    
 				    }
-			 
-		}else{
-			System.out.println("Location missing");
 		}
-		
-		
-		if((searchBusiness.getAddress() != null) 
-				&& ((!searchBusiness.getService().isEmpty()) || (searchBusiness.getService() !=null))
-				&& ((!searchBusiness.getDate().isEmpty()) || (searchBusiness.getDate() != null)) 
-				&& ((!searchBusiness.getTime1()
-						.isEmpty()) || (searchBusiness.getTime1() !=null))){
-		
-		}
-//		else if (searchBook.getLocation() != null) {
-//			String[] trim = searchBook.getLocation().split(",");
-//			String city = trim[0].substring(0, trim[0].length()-1);
-//			if ((!city.isEmpty()) ||(city != null) ) {
-//				bookList = retriveServices.bookSearchByCity(city);
-//				return bookList;
-//			} else if ((!searchBook.getName().isEmpty()) || (searchBook.getName() !=null)) {
-//				bookList = retriveServices.bookSearchByName(searchBook, city);
-//				return bookList;
-//			} else if ((!searchBook.getIsbn().isEmpty()) || (searchBook.getIsbn() != null)) {
-//				bookList = retriveServices.bookSearchByISBN(searchBook, city);
-//				return bookList;
-//			} else if ((!searchBook.getGrade().isEmpty()) || (searchBook.getGrade() !=null)) {
-//				bookList = retriveServices.bookSearchByGarde(searchBook, city);
-//				return bookList;
-//			}
-//		} else {
-//			if ((!searchBook.getName().isEmpty()) || (searchBook.getName() !=null)) {
-//				bookList = retriveServices.getBookByName(searchBook);
-//				return bookList;
-//			} else if ((!searchBook.getIsbn().isEmpty()) || (searchBook.getIsbn() != null)) {
-//				bookList = retriveServices.getBookByISBN(searchBook);
-//				return bookList;
-//			} else if ((!searchBook.getGrade().isEmpty()) || (searchBook.getGrade() !=null)) {
-//				bookList = retriveServices.getBookByGrade(searchBook);
-//				return bookList;
-//			} else {
-//				System.out.println("There is no books in list.");
-//			}
-//		}
-//		
 		return businessList;
-
-		
 	}
 	
-	
-
 }

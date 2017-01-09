@@ -14,16 +14,6 @@
               });
            }
         };
-       /*function fn_link(scope, element, attrs) {
-           var onChange = $parse(attrs.ngFiles);
-           element.on('change', function (event) {
-               onChange(scope, { $files: event.target.files });
-           });
-       };
-
-       return {
-           link: fn_link
-       };*/
    } ])
    .service('UserService')
    .controller('RegisterController',['UserService', '$location', '$rootScope',function(UserService, $location, $rootScope){
@@ -35,22 +25,43 @@
        vm.itemRegister = itemRegister;
        vm.sellerAddress = sellerAddress;
        vm.sellerInformation = sellerInformation;
+       vm.customerRegister = customerRegister;
        $rootScope.sellerResponse = [];
+       $rootScope.customerResponse = [];
        
        function register() {
            vm.dataLoading = true;
-           UserService.Create(vm.user)
+           UserService.Create(vm.business)
                .then(function (response) {
-                 //  if (response.success) {
+                   if (response != '0') {
+                	   $rootScope.customerResponse = 'Account Successfully Register';
                 	   debugger;
                 	   $location.path('/signin');
-//                   } else {
-//                      // FlashService.Error(response.message);
-//                       vm.dataLoading = false;
-//                   }
+                   } else {
+                	   $rootScope.customerResponse = 'Registeration Fail';
+                	   $location.path('/successful');
+                  }
                });
        }
        
+
+       function customerRegister(){
+    	   vm.dataLoading = true;
+           UserService.RegisterCustomer(vm.customer)
+               .then(function (response) {
+                    if (response !== '0') {
+            	   $rootScope.customerResponse = 'Account Successfully Register';
+                	   debugger;
+                     $location.path('/signin');
+                       
+                   } else {
+                	   $rootScope.customerResponse = 'Registeration Fail';
+                	   $location.path('/successful');
+                   }
+               }); 
+    	   
+    	   
+       }
        
        function vendorRegister() {
            vm.dataLoading = true;

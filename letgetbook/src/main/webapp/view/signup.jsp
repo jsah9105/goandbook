@@ -9,32 +9,62 @@
     <form name="form" ng-submit="vm.register()" role="form">
         <div class="form-group" ng-class="{ 'has-error': form.businessName.$dirty && form.businessName.$error.required }">
             <label for="businessName">Business name</label>
-            <input type="text" name="businessName" id="businessName" class="form-control" ng-model="vm.user.businessName" required />
+            <input type="text" name="businessName" id="businessName" class="form-control" ng-model="vm.business.businessName" required />
             <span ng-show="form.businessName.$dirty && form.businessName.$error.required" class="help-block">Business name is required</span>
         </div>
         <div class="form-group" ng-class="{ 'has-error': form.email.$dirty && form.email.$error.required }">
             <label for="email">Email</label>
-            <input type="text" name="email" id="email" class="form-control" ng-model="vm.user.email" required />
+            <input type="text" name="email" id="email" class="form-control" ng-model="vm.business.email" required />
             <span ng-show="form.email.$dirty && form.email.$error.required" class="help-block">Email is required</span>
         </div>
         <div class="form-group" ng-class="{ 'has-error': form.username.$dirty && form.userName.$error.required }">
             <label for="userName">Username</label>
-            <input type="text" name="username" id="userName" class="form-control" ng-model="vm.user.userName" required />
+            <input type="text" name="username" id="userName" class="form-control" ng-model="vm.business.userName" required />
             <span ng-show="form.username.$dirty && form.userName.$error.required" class="help-block">Username is required</span>
         </div>
         <div class="form-group" ng-class="{ 'has-error': form.password.$dirty && form.password.$error.required }">
             <label for="password">Password</label>
-            <input type="password" name="password" id="password" class="form-control" ng-model="vm.user.password" required />
+            <input type="password" name="password" id="password" class="form-control" ng-model="vm.business.password" required />
             <span ng-show="form.password.$dirty && form.password.$error.required" class="help-block">Password is required</span>
         </div>
         <div class="form-group" ng-class="{ 'has-error': form.password.$dirty && form.password.$error.required }">
             <label for="phone">Home phone</label>
-            <input type="text" name="phone1" id="phone1" class="form-control" ng-model="vm.user.phone1" required />
+            <input type="text" name="phone1" id="phone1" class="form-control" ng-model="vm.business.phone1" required />
             <span ng-show="form.phone1.$dirty && form.phone1.$error.required" class="help-block">Home Phone is required</span>
         </div>
          <div class="form-group" ng-class="{ 'has-error': form.password.$dirty && form.password.$error.required }">
             <label for="phone">Cell phone</label>
-            <input type="text" name="phone1" id="phone1" class="form-control" ng-model="vm.user.phone1" />
+            <input type="text" name="phone1" id="phone1" class="form-control" ng-model="vm.business.phone2" />
+        </div>
+        <br>
+  <h2> Address</h2>
+        <div class="form-group" ng-class="{ 'has-error': form.street1.$dirty && form.street1.$error.required }">
+            <label for="street1">Street1</label>
+            <input type="text" name="address1" id="street1" class="form-control" ng-model="vm.business.address1" required />
+            <span ng-show="form.street1.$dirty && form.street1.$error.required" class="help-block">Street name is required</span>
+        </div>
+        <div class="form-group" >
+            <label for="street2">Street2</label>
+            <input type="text" name="address2" id="street2" class="form-control" ng-model="vm.business.address2"  />
+        </div>
+        <div class="form-group" ng-class="{ 'has-error': form.city.$dirty && form.city.$error.required }">
+            <label for="city">City</label>
+            <input type="text" name="city" id="city" class="form-control" ng-model="vm.business.city" required />
+            <span ng-show="form.city.$dirty && form.city.$error.required" class="help-block">City is required</span>
+        </div>
+        <div class="form-group" ng-class="{ 'has-error': form.state.$dirty && form.state.$error.required }">
+            <label for="state">State</label>
+            <input type="text" name="state" id="state" class="form-control" ng-model="vm.business.state" required />
+            <span ng-show="form.state.$dirty && form.state.$error.required" class="help-block">State is required</span>
+        </div>
+        <div class="form-group" >
+            <label for="zipcode">ZipCode </label>
+            <input type="text" name="zipCode" id="zipcode" class="form-control" ng-model="vm.business.zipCode"  />
+        </div>
+        <div class="form-group" ng-class="{ 'has-error': form.zpostalCode.$dirty && form.postalCode.$error.required }">
+            <label for="country">Country</label>
+            <input type="text" name="country" id="country" class="form-control" ng-model="vm.business.country" required />
+             <span ng-show="form.country.$dirty && form.country.$error.required" class="help-block">Country is required</span> 
         </div>
         <div class="form-actions">
             <button type="submit" ng-disabled="form.$invalid || vm.dataLoading" class="btn btn-primary">Register</button>

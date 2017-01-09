@@ -5,7 +5,7 @@ mainApp.config(
     $routeProvider
         .when('/', {
             templateUrl: 'view/home.jsp',
-            controller: 'LoginController',
+            controller: 'SearchController',
             controllerAs:'vm'
         })
         .when('/viewStudents', {
@@ -39,6 +39,8 @@ mainApp.config(
         })
         .when('/signupPage', {
             templateUrl: 'view/signupPage.jsp',
+            controller: 'RegisterController',
+            controllerAs:'vm'
         })
          .when('/sellerpersonalInfo', {
             templateUrl: 'view/signup.jsp',

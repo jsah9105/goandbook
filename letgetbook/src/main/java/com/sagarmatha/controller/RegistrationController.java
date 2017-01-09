@@ -34,7 +34,7 @@ public class RegistrationController {
 
 		
 		Long businessId = registrationService.addBusiness(registration);// Calling addBusiness method to registered business
-		registration.setBusinessId(businessId);
+		registration.setBusinessId(businessId.toString());
 		logger.debug(businessId + " is successfully registered");
 		Long addressId = registrationService.addAddress(registration);// Calling addAddress method to add address
 
@@ -55,7 +55,7 @@ public class RegistrationController {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Long customerRegisteration(UserAccount registration) {
 		logger.debug("Entering to customerRegisteration method");
-
+		
 		// Calling addCustomer method to registered customer
 		Long customerId = registrationService.addCustomer(registration);
 		logger.debug(customerId + " is not registered");

@@ -6,12 +6,14 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SecondaryTable;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 @Entity
 //@Indexed
 @Table(name = "businessInfo")
+//@SecondaryTable(name = "address", pkJoinColumns=@javax.persistence.PrimaryKeyJoinColumn(name="businessId", referencedColumnName="businessId"))
 public class Business {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO, generator="my_seq_gen")

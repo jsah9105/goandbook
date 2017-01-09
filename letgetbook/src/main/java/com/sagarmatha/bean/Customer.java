@@ -26,6 +26,7 @@ public class Customer {
 	private String phone;
 	private String userName;
 	private String password;
+	private String gender;
 	
 	/**
 	 * @return the customerId
@@ -122,6 +123,18 @@ public class Customer {
 	 */
 	public void setPassword(String password) {
 		this.password = password;
+	}
+	/**
+	 * @return the gender
+	 */
+	public String getGender() {
+		return gender;
+	}
+	/**
+	 * @param gender the gender to set
+	 */
+	public void setGender(String gender) {
+		this.gender = gender;
 	}
 	
 	

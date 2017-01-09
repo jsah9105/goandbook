@@ -191,6 +191,7 @@ body {
       <script type="text/javascript" src="js/app.js"></script>
    	  <script type="text/javascript" src="js/controller/MainController.js"></script>
       <script type="text/javascript" src="js/controller/RegisterController.js"></script>
+      <script type="text/javascript" src="js/controller/SearchController.js"></script>
       <script type="text/javascript" src="js/controller/LoginController.js"></script>
       <script type="text/javascript" src="js/controller/GetAllDataController.js"></script>
       <script type="text/javascript" src="js/services/mainservices.js"></script>
