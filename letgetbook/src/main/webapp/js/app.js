@@ -68,6 +68,10 @@ mainApp.config(
             templateUrl: 'view/contact.jsp',
            
         })
+        .when('/gopal', {
+            templateUrl: 'view/trail.jsp',
+           
+        })
         .otherwise({
             redirectTo: '/'
         });
