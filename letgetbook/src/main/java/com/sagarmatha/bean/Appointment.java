@@ -26,7 +26,8 @@ public class Appointment {
 	private Long customerId;
 	private Long serviceId;
 	private Date date;
-	private Time startTime;
+	private String startTime;
+	private Long employeeId;
 	private String status;
 	
 	/**
@@ -80,13 +81,13 @@ public class Appointment {
 	/**
 	 * @return the startTime
 	 */
-	public Time getStartTime() {
+	public String getStartTime() {
 		return startTime;
 	}
 	/**
 	 * @param startTime the startTime to set
 	 */
-	public void setStartTime(Time startTime) {
+	public void setStartTime(String startTime) {
 		this.startTime = startTime;
 	}
 	/**
@@ -100,6 +101,18 @@ public class Appointment {
 	 */
 	public void setDate(Date date) {
 		this.date = date;
+	}
+	/**
+	 * @return the employeeId
+	 */
+	public Long getEmployeeId() {
+		return employeeId;
+	}
+	/**
+	 * @param employeeId the employeeId to set
+	 */
+	public void setEmployeeId(Long employeeId) {
+		this.employeeId = employeeId;
 	}
 
 	

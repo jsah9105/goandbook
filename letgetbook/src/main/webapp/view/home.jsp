@@ -14,13 +14,14 @@
 
 
     <form class="form-signin" style="margin-left: 23em" ng-submit="vm.searchform()" role="form" >
-    <input type="text" class="form-control" ng-model="vm.search.search" placeholder="What kind of service do you want?" name="search">
-      <input type="text" class="form-control" ng-model="vm.search.location" placeholder="Location" name="location" required autofocus>
+    <input type="text" class="form-control" ng-model="vm.search.service" placeholder="How can i help you?" name="service" autofocus>
+      <input type="text" class="form-control" ng-model="vm.search.city" placeholder="City" name="city"  >
+      <input type="text" class="form-control" ng-model="vm.search.zipCode" placeholder="City" name="city"  >
         
-      <input type="text" class="form-control" ng-model="vm.search.service" placeholder="Service"name="service"> 
+     <!--  <input type="text" class="form-control" ng-model="vm.search.service" placeholder="Service"name="service"> 
       <input type="text" class="form-control" ng-model="vm.search.date" placeholder="Date" name="date">
       <input type="text" class="form-control" ng-model="vm.search.time1" placeholder="Start Time" name="time1">
-      <input type="text" class="form-control" ng-model="vm.search.time2" placeholder="End Time" name="time2">
+      <input type="text" class="form-control" ng-model="vm.search.time2" placeholder="End Time" name="time2"> -->
       <button class="btn  btn-success " style="width: 7em; display: inline-block" type="submit">
         <span class="glyphicon glyphicon-search"></span> Search </button>
     </form>

@@ -3,6 +3,8 @@
  */
 package com.sagarmatha.controller;
 
+import java.util.List;
+
 import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -12,6 +14,8 @@ import javax.ws.rs.core.MediaType;
 import org.aspectj.internal.lang.annotation.ajcDeclareAnnotation;
 
 import com.sagarmatha.bean.AppointFix;
+import com.sagarmatha.bean.Employee;
+import com.sagarmatha.bean.SellerAccount;
 import com.sagarmatha.dao.AppointmentService;
 
 /**
@@ -22,6 +26,28 @@ import com.sagarmatha.dao.AppointmentService;
 public class AppoinmentController {
 	
 	AppointmentService apppointmentService = new AppointmentService();
+	
+	@POST
+	@Path("/businessDetial")
+	@Produces(MediaType.APPLICATION_JSON)
+	public SellerAccount businessSelectForappointment(SellerAccount businessDetial){
+		SellerAccount businessInfoList = new SellerAccount();
+		businessInfoList = apppointmentService.getBusinessDetail(Long.parseLong(businessDetial.getBusinessId()));
+		
+		return businessInfoList;
+		
+	}
+	
+	@POST
+	@Path("/employeeBook")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Employee> selectEmployeeForappointment(SellerAccount businessDetial){
+		List<Employee> employeeUnbookList = apppointmentService.getEmployeeDetail(businessDetial);
+		
+		return employeeUnbookList;
+		
+	}
+	
 	
 	/* Getting input and making an appoinment */
 	@POST

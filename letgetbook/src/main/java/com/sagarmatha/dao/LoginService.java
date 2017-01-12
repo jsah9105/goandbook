@@ -54,7 +54,6 @@ public class LoginService {
 	
 	public Customer getCustomerLogin(LogInInfo information){
 		logger.debug("Entering into getCustomerLogin");
-		//Session session = HibernateUtil.getSession();
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Customer customerValue = new Customer();
 		try {

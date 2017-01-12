@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.sagarmatha.util;
+
+/**
+ * @author jitendra
+ *
+ */
+public class CorsFilter {
+
+}

@@ -7,6 +7,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SecondaryTable;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 /**
@@ -17,7 +19,12 @@ import javax.persistence.Table;
 @Table(name = "address")
 public class Address {
 	@Id
+<<<<<<< HEAD
 	@GeneratedValue(strategy = GenerationType.AUTO)//auto generated value 
+=======
+	@GeneratedValue(strategy=GenerationType.AUTO, generator="my_seq_gen")
+	@SequenceGenerator(name="my_seq_gen", sequenceName="ENTITY_SEQ")
+>>>>>>> branch 'master' of https://github.com/jsah9105/goandbook.git
 	private Long addressId;
 	private String address1;
 	private String address2;

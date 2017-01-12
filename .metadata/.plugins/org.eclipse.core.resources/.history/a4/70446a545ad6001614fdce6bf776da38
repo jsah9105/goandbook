@@ -1,0 +1,100 @@
+<section id="section1">
+
+	<div class="container" >
+	<div style="width: 50%; margin: auto;">
+    <h2>Search</h2>
+    
+    <div>
+ <table class="populateItems" >
+  <tr>
+  <td ><div style="height:300px; width:90%; background-color:#C8C8C8;">
+  <div ><img src="images/04.jpg" style="height:150px; width:100%; "></div>
+ <p><h3><a style="text-align: center; ">Hello</a></h3></p>
+ <p><a style="text-align: center; ">Desciption</a></p><br><br>
+ <p style="margin-left:70%;"><a style="text-decoration: line-through;">15</a> 12</p>
+
+
+
+ </div></td>
+  <td ><div style="height:300px; width:90%; background-color:#C8C8C8;">
+   <div ><img src="images/04.jpg" style="height:150px; width:100%; "></div>
+  
+  <p><h3><a style="text-align: center; ">Hello</a></h3></p>
+ <p><a style="text-align: center; ">Desciption</a></p><br><br>
+ <p style="margin-left:70%;"><a style="text-decoration: line-through;">15</a> 12</p></div></td>
+ 
+  <td ><div style="height:300px; width:90%; background-color:#C8C8C8;">
+   <div ><img src="images/04.jpg" style="height:150px; width:100%; "></div>
+ <p><h3><a style="text-align: center; ">Hi</a></h3></p>
+ <p><a style="text-align: center; ">Desciption</a></p><br><br>
+ <p style="margin-left:70%;"><a style="text-decoration: line-through;">15</a> 12</p></div></td>
+  
+  <td ><div style="height:300px; width:90%; background-color:#C8C8C8;">
+  <div ><img src="images/04.jpg" style="height:150px; width:100%; "></div>
+  <p><h3><a style="text-align: center; ">How Are you</a></h3></p>
+ <p><a style="text-align: center; ">Desciption</a></p><br><br>
+ <p style="margin-left:70%;"><a style="text-decoration: line-through;">15</a> 12</p></div></td>
+  
+  </tr>
+  </table>
+  
+  
+  
+  </div>
+  
+  <table>
+<tr>
+<th>Name</th>
+<th>Price</th>
+<th>Description</th>
+</tr>
+<tr ng-repeat="items in searchResponse">
+<td>{{items.businessName}}</td>
+<td>{{items.email}}</td>
+<td>{{items.description}}</td>
+
+
+</tr>
+
+
+
+</table>
+    
+    
+    <form name="form" ng-submit="vm.bookSearch()" role="form">
+
+    	     
+        <div class="form-group" >
+            <label for="location">Location</label>
+            <input type="text" name="location" id="userName" class="form-control" ng-model="vm.book.location"  />
+          
+        </div>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" ng-model="vm.book.name" required />
+            
+        </div>
+        <div class="form-group" >
+            <label for="isbn">ISBN</label>
+            <input type="text" name="isbn" id="password" class="form-control" ng-model="vm.book.isbn" required />
+            
+        </div>
+     	
+     	<div class="form-group" >
+            <label for="isbn">Grade</label>
+            <input type="text" name="grade" id="password" class="form-control" ng-model="vm.book.grade" required />
+            
+        </div>
+        
+        
+        
+           <div class="form-actions">
+            <button type="submit"  class="btn btn-primary">Submit</button>
+            
+        </div>
+    </form>
+</div>
+</div>
+</section>
+
+
