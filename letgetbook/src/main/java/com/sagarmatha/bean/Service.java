@@ -1,0 +1,78 @@
+/**
+ * 
+ */
+package com.sagarmatha.bean;
+
+import java.sql.Time;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+/**
+ * @author jitendra
+ *
+ */
+@Entity
+@Table(name = "service")
+public class Service {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long serviceId;
+	private String serviceName;
+	//private Time duration;
+	private String description;
+	
+	/**
+	 * @return the serviceId
+	 */
+	public Long getServiceId() {
+		return serviceId;
+	}
+	/**
+	 * @param serviceId the serviceId to set
+	 */
+	public void setServiceId(Long serviceId) {
+		this.serviceId = serviceId;
+	}
+	/**
+	 * @return the serviceName
+	 */
+	public String getServiceName() {
+		return serviceName;
+	}
+	/**
+	 * @param serviceName the serviceName to set
+	 */
+	public void setServiceName(String serviceName) {
+		this.serviceName = serviceName;
+	}
+	/**
+	 * @return the duration
+	 */
+//	public Time getDuration() {
+//		return duration;
+//	}
+//	/**
+//	 * @param duration the duration to set
+//	 */
+//	public void setDuration(Time duration) {
+//		this.duration = duration;
+//	}
+	/**
+	 * @return the description
+	 */
+	public String getDescription() {
+		return description;
+	}
+	/**
+	 * @param description the description to set
+	 */
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+}

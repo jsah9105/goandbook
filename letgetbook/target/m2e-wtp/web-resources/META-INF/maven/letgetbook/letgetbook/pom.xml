@@ -8,6 +8,12 @@
 	<name>letgetbook</name>
 	<url>http://maven.apache.org</url>
 
+	<!-- <parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.4.3.RELEASE</version>
+	</parent> -->
+
 	<properties>
 		<jersey.version>1.18.3</jersey.version>
 
@@ -69,7 +75,7 @@
 		</dependency>
 
 		<!-- Jersey -->
-		 <dependency>
+		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-servlet</artifactId>
 			<version>${jersey.version}</version>
@@ -88,7 +94,7 @@
 			<groupId>org.jvnet.mimepull</groupId>
 			<artifactId>mimepull</artifactId>
 			<version>1.9.5</version>
-		</dependency> 
+		</dependency>
 
 		<!-- Hibernate -->
 		<dependency>
@@ -117,16 +123,28 @@
 			<artifactId>hibernate-entitymanager</artifactId>
 			<version>4.0.1.Final</version>
 		</dependency>
+
 		<!-- <dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-search-orm</artifactId>
-			<version>5.5.5.Final</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+
+		</dependency> -->
+
+		<dependency>
+			<groupId>com.thetransactioncompany</groupId>
+			<artifactId>cors-filter</artifactId>
+			<version>2.1.2</version>
 		</dependency>
 		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-search-infinispan</artifactId>
-			<version>5.5.5.Final</version>
-		</dependency> -->
+			<groupId>com.thetransactioncompany</groupId>
+			<artifactId>java-property-utils</artifactId>
+			<version>1.9.1</version>
+		</dependency>
+
+		<!-- <dependency> <groupId>org.hibernate</groupId> <artifactId>hibernate-search-orm</artifactId> 
+			<version>5.5.5.Final</version> </dependency> <dependency> <groupId>org.hibernate</groupId> 
+			<artifactId>hibernate-search-infinispan</artifactId> <version>5.5.5.Final</version> 
+			</dependency> -->
 		<dependency>
 			<groupId>javax.validation</groupId>
 			<artifactId>validation-api</artifactId>
@@ -224,12 +242,12 @@
 			<artifactId>log4j</artifactId>
 			<version>${log4j.version}</version>
 		</dependency>
-		
+
 		<dependency>
-        <groupId>cglib</groupId>
-        <artifactId>cglib-asm</artifactId>
-        <version>1.0</version>
-</dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib-asm</artifactId>
+			<version>1.0</version>
+		</dependency>
 	</dependencies>
 
 

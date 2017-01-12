@@ -16,7 +16,7 @@ public class SellerAccount {
 	
 	private String businessId;
 	private String businessName;
-	private Blob businessPhoto;
+	//private Blob businessPhoto;
 	private String phone1;
 	private String phone2;
 	private String userName;
@@ -26,22 +26,22 @@ public class SellerAccount {
 	private String address2;
 	private String city;
 	private String state;
-	private int zipCode;
+	private String zipCode;
 	private String country;
 	private Long employeeId;
 	private String empFirstName;
 	private String empMiddleName;
 	private String empLastName;
 	private String serviceName;
-	private Time duration;
+	//private Time duration;
 	private String description;
 	private List<Service> serviceList;
 	private String serviceId;
 	private String date;
 	private String startTime;
 	private String status;
-	private Time time;
-	private Date todayDate;
+//	private Time time;
+//	private Date todayDate;
 	
 	
 	
@@ -69,18 +69,18 @@ public class SellerAccount {
 	public void setBusinessName(String businessName) {
 		this.businessName = businessName;
 	}
-	/**
-	 * @return the businessPhoto
-	 */
-	public Blob getBusinessPhoto() {
-		return businessPhoto;
-	}
-	/**
-	 * @param businessPhoto the businessPhoto to set
-	 */
-	public void setBusinessPhoto(Blob businessPhoto) {
-		this.businessPhoto = businessPhoto;
-	}
+//	/**
+//	 * @return the businessPhoto
+//	 */
+//	public Blob getBusinessPhoto() {
+//		return businessPhoto;
+//	}
+//	/**
+//	 * @param businessPhoto the businessPhoto to set
+//	 */
+//	public void setBusinessPhoto(Blob businessPhoto) {
+//		this.businessPhoto = businessPhoto;
+//	}
 	/**
 	 * @return the phone1
 	 */
@@ -192,15 +192,15 @@ public class SellerAccount {
 	/**
 	 * @return the zipCode
 	 */
-	public int getZipCode() {
-		return zipCode;
-	}
-	/**
-	 * @param zipCode the zipCode to set
-	 */
-	public void setZipCode(int zipCode) {
-		this.zipCode = zipCode;
-	}
+//	public int getZipCode() {
+//		return zipCode;
+//	}
+//	/**
+//	 * @param zipCode the zipCode to set
+//	 */
+//	public void setZipCode(int zipCode) {
+//		this.zipCode = zipCode;
+//	}
 	/**
 	 * @return the country
 	 */
@@ -276,15 +276,15 @@ public class SellerAccount {
 	/**
 	 * @return the duration
 	 */
-	public Time getDuration() {
-		return duration;
-	}
-	/**
-	 * @param duration the duration to set
-	 */
-	public void setDuration(Time duration) {
-		this.duration = duration;
-	}
+//	public Time getDuration() {
+//		return duration;
+//	}
+//	/**
+//	 * @param duration the duration to set
+//	 */
+//	public void setDuration(Time duration) {
+//		this.duration = duration;
+//	}
 	/**
 	 * @return the description
 	 */
@@ -360,26 +360,38 @@ public class SellerAccount {
 	/**
 	 * @return the time
 	 */
-	public Time getTime() {
-		return time;
-	}
-	/**
-	 * @param time the time to set
-	 */
-	public void setTime(Time time) {
-		this.time = time;
-	}
+//	public Time getTime() {
+//		return time;
+//	}
+//	/**
+//	 * @param time the time to set
+//	 */
+//	public void setTime(Time time) {
+//		this.time = time;
+//	}
 	/**
 	 * @return the todayDate
 	 */
-	public Date getTodayDate() {
-		return todayDate;
+//	public Date getTodayDate() {
+//		return todayDate;
+//	}
+//	/**
+//	 * @param todayDate the todayDate to set
+//	 */
+//	public void setTodayDate(Date todayDate) {
+//		this.todayDate = todayDate;
+//	}
+	/**
+	 * @return the zipCode
+	 */
+	public String getZipCode() {
+		return zipCode;
 	}
 	/**
-	 * @param todayDate the todayDate to set
+	 * @param zipCode the zipCode to set
 	 */
-	public void setTodayDate(Date todayDate) {
-		this.todayDate = todayDate;
+	public void setZipCode(String zipCode) {
+		this.zipCode = zipCode;
 	}
 	
 	

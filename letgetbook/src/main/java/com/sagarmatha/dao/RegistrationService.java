@@ -38,7 +38,7 @@ public class RegistrationService {
 			address.setAddress2(account.getAddress2());
 			address.setCity(account.getCity());
 			address.setState(account.getState());
-			address.setZipCode(account.getZipCode());
+		//	address.setZipCode(account.getZipCode());
 			address.setCountry(account.getCountry());
 			address.setBusinessId(Long.parseLong(account.getBusinessId()));
 			addressID = (Long) session.save(address);
@@ -82,7 +82,7 @@ public class RegistrationService {
 			if (business.getBusinessId() == null) {
 				business.setBusinessId(business.getBusinessId());
 				business.setBusinessName(businessAccount.getBusinessName());
-				business.setBusinessPhoto(businessAccount.getBusinessPhoto());
+			//	business.setBusinessPhoto(businessAccount.getBusinessPhoto());
 				business.setEmail(businessAccount.getEmail());
 				business.setUserName(businessAccount.getUserName());
 				business.setPassword(businessAccount.getPassword());

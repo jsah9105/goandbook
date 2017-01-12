@@ -3,6 +3,7 @@
  */
 package com.sagarmatha.dao;
 
+import java.sql.Date;
 import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -33,6 +34,7 @@ import com.sagarmatha.util.HibernateUtil;
 
 public class AppointmentService {
 	private static final Logger logger = Logger.getLogger(AppointmentService.class);
+	private Date todayDate;
 	
 	public Long getdetailInfo(AppointFix appointFix){
 		logger.debug("Entering to addBussiness method");
@@ -125,6 +127,7 @@ public class AppointmentService {
 	}
 	
 	public List<Employee> getEmployeeDetail(SellerAccount account){
+		
 		logger.debug("Entering to getBusineesName");
 		Employee employee = new Employee();
 		Session session = HibernateUtil.getSessionFactory().openSession();
@@ -135,7 +138,7 @@ public class AppointmentService {
 		try {
 			session.beginTransaction();
 			List list = session.createQuery(" from Schedule s where o.date=:date and o.businessId=:businessId ")
-					.setDate("date",account.getTodayDate()).setLong("businessId", Long.parseLong(account.getBusinessId())).list();
+					.setDate("date",todayDate).setLong("businessId", Long.parseLong(account.getBusinessId())).list();
 
 			Iterator iterator = list.iterator();
 			while (iterator.hasNext()) {

@@ -9,6 +9,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 import org.apache.log4j.Logger;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.sagarmatha.bean.SellerAccount;
 import com.sagarmatha.bean.UserAccount;
@@ -18,17 +20,20 @@ import com.sagarmatha.dao.RegistrationService;
  * @author jitendra
  *
  */
-
+@RestController
 @Path("/registration")
+
 public class RegistrationController {
 	private static final Logger logger = Logger.getLogger(RegistrationController.class);
+	//RegistrationService registrationService = new RegistrationService();
 	RegistrationService registrationService = new RegistrationService();
 
 	// Business registered
+	//@GetMapping("/registration/businessRegistration")
 	@POST
 	@Path("/businessRegistration")
 	@Produces(MediaType.APPLICATION_JSON)
-	public String businessRegisteration(SellerAccount registration) {
+	public String businessRegisteration(@RequestParam(required=false, defaultValue="World") SellerAccount registration) {
 		logger.debug("Entering to businessRegisteration method");
 		String message = null;
 
