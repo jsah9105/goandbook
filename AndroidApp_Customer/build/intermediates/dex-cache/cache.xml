@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_9bf3ee1ba9079b8d35bc8654fe0947ab99c95d19/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-4.3.6_ba9f3e000b771dfd27de14aea6f0b00174ce64b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_ff1617fa400547f4a0ca5912a47921507ac91c6f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_a03abb6fe53db76d421d6789b9e92bdb4c793207/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_e5baa1c93b6e11f0fafae799acd2f139050fc502/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b397aa71a7b42c304a4b1e8938efdee1158a511f">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a2b390035be484b2eedcbc764289b5361cc49b6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_8c9d8284e0f9a7eadff55c31637dc2fccb1f651a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.9.0.Final/bead2f4609b302c43859f156df8911e50df0610b/netty-3.9.0.Final.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bead2f4609b302c43859f156df8911e50df0610b">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/netty-3.9.0.Final_c25a7d73a0aa0964a49b1b94eb313b55f86156f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.3.1_7d9c4cf5b83547810882def234994f829d4230bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38823a6eb8419d9ea2258c2fd09bd4caf7d87f0c">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d2a2080ced24ecfb8d0444bd5af915f78a8f8def/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_4427a7222699b3fcdfc37873307973b54d0a82b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.9_b5fab8f4d5b6d7c57670d8900928a99f3f4bd92b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/.gradle/caches/modules-2/files-2.1/com.ning/async-http-client/1.8.8/3d1b42c369e5ea8601f10649b91f3b431fcf4c4b/async-http-client-1.8.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d1b42c369e5ea8601f10649b91f3b431fcf4c4b">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/async-http-client-1.8.8_690209587e5c68e99b95723550b5ae8fb56ee296/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta4_3fbc64ec953f3fe347ba5ee6a0fe0566feb29fe8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_0b71036515bed7a5dfb313399caf8a849d82aba6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.json/1.0.2/e8a419fdc37481f2b54c6b711eb36708b70a204b/javax.json-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e8a419fdc37481f2b54c6b711eb36708b70a204b">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.json-1.0.2_20dd270d568e11f137f29e5ab7d04eb1c70fd887/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/6b262da268f8ad9eff941b25503a9198f0a0ac93/slf4j-api-1.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6b262da268f8ad9eff941b25503a9198f0a0ac93">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/slf4j-api-1.7.5_3de3dee4217d7b9315d7aefa3916e28167ab2f88/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_14f488668b9b449c91460e2e0956e5d92d8c505d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_54c49ab9345c36d0aed825bd1e155ee4401e9bb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_45a6d16fe2017b0effe72100c8b3eb5b3aa151b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_9af5e697ee56d550af957b2737f88b37f2b07fa9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_be12dcaa205b531d28c3c7f8f8eedf3ac808f1b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_6aafc7c147c791b127eeaec5a4f9183edb584a28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_3b2eaeb20deb7dbdffceea852f49c6d6d3f5efd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_17f7e358fb9b93eb67010d8d537171d0d760e1af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta4/constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta4_bcf07f0c3afaae751925bda343b55fe419c09025/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jitendra/Documents/CustomerApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_62ba32396aacb75727c804daae5a0a1f37981555/classes.dex" />
+    </item>
+
+</items>
