@@ -4,7 +4,6 @@
 package com.sagarmatha.bean;
 
 import java.sql.Date;
-import java.sql.Time;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

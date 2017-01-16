@@ -3,8 +3,6 @@
  */
 package com.sagarmatha.bean;
 
-import java.sql.Blob;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

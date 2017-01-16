@@ -3,13 +3,18 @@
  */
 package com.sagarmatha.bean;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 /**
  * @author jitendra
  *
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
+//@JsonAutoDetect(fieldVisibility=JsonAutoDetect.Visibility.ANY)
 public class LogInInfo {
-	
+	//@JsonProperty("userName")
 	private String userName;
+	//@JsonProperty("password")
 	private String password;
 	/**
 	 * @return the userName

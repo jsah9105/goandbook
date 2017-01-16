@@ -8,17 +8,10 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.hibernate.Criteria;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
-import org.hibernate.criterion.Projections;
-import org.hibernate.transform.Transformers;
 
-import com.sagarmatha.bean.Address;
-import com.sagarmatha.bean.Business;
 import com.sagarmatha.bean.SellerAccount;
-import com.sagarmatha.bean.Service;
-import com.sagarmatha.bean.ServiceOrder;
 import com.sagarmatha.util.HibernateUtil;
 
 /**

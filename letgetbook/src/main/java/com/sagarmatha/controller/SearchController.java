@@ -11,8 +11,6 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import com.sagarmatha.bean.Address;
-import com.sagarmatha.bean.Business;
 import com.sagarmatha.bean.SearchBusiness;
 import com.sagarmatha.bean.SellerAccount;
 import com.sagarmatha.dao.SearchService;

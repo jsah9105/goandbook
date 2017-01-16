@@ -3,9 +3,6 @@
  */
 package com.sagarmatha.bean;
 
-import java.sql.Blob;
-import java.sql.Date;
-import java.sql.Time;
 import java.util.List;
 
 /**

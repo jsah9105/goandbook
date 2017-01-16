@@ -3,8 +3,6 @@
  */
 package com.sagarmatha.controller;
 
-import java.util.List;
-
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -30,16 +28,11 @@ public class LoginController {
 	@POST
 	@Path("/loginUser")
 	@Produces(MediaType.APPLICATION_JSON)
-	public LoginReturnDetail userLogIn(LogInInfo userLogin) {
-		LoginReturnDetail loginretun = new LoginReturnDetail();
+	public Customer userLogIn(LogInInfo userLogin) {
 		Customer customer = new Customer();
-		
 		 customer =	loginservice.getCustomerLogin(userLogin);
-		 loginretun.setId(customer.getCustomerId());
-		 loginretun.setName(customer.getCustFirstName());
-		
-		return loginretun;
-		
+
+		 return customer;
 	}
 	
 	/* Client Login*/
@@ -51,8 +44,10 @@ public class LoginController {
 		Business business = new Business();
 		
 		business = loginservice.getBusinessLogin(businessLogin);
-		loginretun.setId(business.getBusinessId());
-		loginretun.setName(business.getBusinessName());
+//		loginretun.setId(business.getBusinessId());
+//		loginretun.setName(business.getBusinessName());
+		loginretun.setId(12L);
+		loginretun.setName("ram");
 		
 		return loginretun;
 		

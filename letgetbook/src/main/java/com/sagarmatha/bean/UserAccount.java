@@ -3,10 +3,13 @@
  */
 package com.sagarmatha.bean;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 /**
  * @author jitendra
  *
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class UserAccount {
 	
 	private String customerId;

@@ -10,8 +10,8 @@ import javax.ws.rs.core.MediaType;
 
 import org.apache.log4j.Logger;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
 
+import com.sagarmatha.bean.JsonResponse;
 import com.sagarmatha.bean.SellerAccount;
 import com.sagarmatha.bean.UserAccount;
 import com.sagarmatha.dao.RegistrationService;
@@ -20,12 +20,9 @@ import com.sagarmatha.dao.RegistrationService;
  * @author jitendra
  *
  */
-@RestController
 @Path("/registration")
-
 public class RegistrationController {
 	private static final Logger logger = Logger.getLogger(RegistrationController.class);
-	//RegistrationService registrationService = new RegistrationService();
 	RegistrationService registrationService = new RegistrationService();
 
 	// Business registered
@@ -36,7 +33,6 @@ public class RegistrationController {
 	public String businessRegisteration(@RequestParam(required=false, defaultValue="World") SellerAccount registration) {
 		logger.debug("Entering to businessRegisteration method");
 		String message = null;
-
 		
 		Long businessId = registrationService.addBusiness(registration);// Calling addBusiness method to registered business
 		registration.setBusinessId(businessId.toString());
@@ -58,13 +54,18 @@ public class RegistrationController {
 	@POST
 	@Path("/customerRegistration")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Long customerRegisteration(UserAccount registration) {
+	public JsonResponse customerRegisteration(UserAccount registration) {
 		logger.debug("Entering to customerRegisteration method");
-		
+		JsonResponse response = new JsonResponse();
 		// Calling addCustomer method to registered customer
 		Long customerId = registrationService.addCustomer(registration);
-		logger.debug(customerId + " is not registered");
-		return customerId;
+		if(customerId != 0){
+			response.setMessage("Success");
+		logger.debug(customerId + " is successfully registered");
+		}else{
+			response.setMessage("Account already exist.");
+		}
+		return response;
 
 	}
 }

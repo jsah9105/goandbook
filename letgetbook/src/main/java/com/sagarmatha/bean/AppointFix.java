@@ -3,7 +3,6 @@
  */
 package com.sagarmatha.bean;
 
-import java.sql.Time;
 import java.util.Date;
 
 /**

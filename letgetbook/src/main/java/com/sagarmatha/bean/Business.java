@@ -2,14 +2,10 @@ package com.sagarmatha.bean;
 
 import java.sql.Blob;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinTable;
-import javax.persistence.OneToMany;
-import javax.persistence.SecondaryTable;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
@@ -29,6 +25,7 @@ public class Business {
 	private String userName;
 	private String password;
 	private String email;
+	private String hoursOfOperation;
 	/**
 	 * @return the businessId
 	 */
@@ -125,6 +122,18 @@ public class Business {
 	 */
 	public void setEmail(String email) {
 		this.email = email;
+	}
+	/**
+	 * @return the hoursOfOperation
+	 */
+	public String getHoursOfOperation() {
+		return hoursOfOperation;
+	}
+	/**
+	 * @param hoursOfOperation the hoursOfOperation to set
+	 */
+	public void setHoursOfOperation(String hoursOfOperation) {
+		this.hoursOfOperation = hoursOfOperation;
 	}
 	
 	
