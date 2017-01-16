@@ -188,7 +188,6 @@
   <uri name="http://java.sun.com/xml/ns/javaee/web-partialresponse_2_0.xsd" uri="jar:file:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.jst.standard.schemas_1.2.201.v201501151629.jar!/dtdsAndSchemas/web-partialresponse_2_0.xsd"/>
   <uri name="http://xmlns.jcp.org/xml/ns/javaee/web-partialresponse_2_0.xsd" uri="jar:file:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.jst.standard.schemas_1.2.201.v201501151629.jar!/dtdsAndSchemas/web-partialresponse_2_0.xsd"/>
   <uri name="http://xmlns.jcp.org/xml/ns/javaee/web-partialresponse_2_2.xsd" uri="jar:file:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.jst.standard.schemas_1.2.201.v201501151629.jar!/dtdsAndSchemas/web-partialresponse_2_2.xsd"/>
-  <system systemId="http://www.eclipse.org/sapphire/xmlns/extension" uri="jar:file:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.sapphire.sdk_9.0.5.201605181639.jar!/schemas/SapphireExtension.xsd"/>
   <uri name="http://www.w3.org/ns/widgets" uri="jar:file:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.thym.core_2.0.0.201603211426.jar!/res/w3c-xsd/widget.xsd"/>
   <uri id="org.w3c.xinclude" name="http://www.w3.org/2001/XInclude" uri="jar:file:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.wst.xsl.core_1.1.301.v201405151730.jar!/xslt-schemas/xinclude.xsd"/>
 </catalog>

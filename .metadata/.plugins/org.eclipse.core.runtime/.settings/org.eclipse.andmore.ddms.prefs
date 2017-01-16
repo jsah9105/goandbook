@@ -6,3 +6,5 @@ logcat.view.colsize.TID=46
 logcat.view.colsize.Tag=96
 logcat.view.colsize.Text=534
 logcat.view.colsize.Time=140
+org.eclipse.andmore.ddms.adbDebugBasePort=8601
+org.eclipse.andmore.ddms.useAdbHost=true

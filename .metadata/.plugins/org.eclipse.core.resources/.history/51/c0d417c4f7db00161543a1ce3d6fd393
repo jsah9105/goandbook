@@ -1,0 +1,86 @@
+/**
+ * 
+ */
+package com.sagarmatha.controller;
+
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.apache.log4j.Logger;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.sagarmatha.bean.SellerAccount;
+import com.sagarmatha.bean.UserAccount;
+import com.sagarmatha.dao.RegistrationService;
+
+/**
+ * @author jitendra
+ *
+ */
+@RestController
+@Path("/registration")
+
+public class RegistrationController {
+	private static final Logger logger = Logger.getLogger(RegistrationController.class);
+	//RegistrationService registrationService = new RegistrationService();
+	RegistrationService registrationService = new RegistrationService();
+
+	// Business registered
+	//@GetMapping("/registration/businessRegistration")
+	@POST
+	@Path("/businessRegistration")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String businessRegisteration(@RequestParam(required=false, defaultValue="World") SellerAccount registration) {
+		logger.debug("Entering to businessRegisteration method");
+		String message = null;
+
+		
+		Long businessId = registrationService.addBusiness(registration);// Calling addBusiness method to registered business
+		registration.setBusinessId(businessId.toString());
+		logger.debug(businessId + " is successfully registered");
+		Long addressId = registrationService.addAddress(registration);// Calling addAddress method to add address
+
+		if (addressId != 0) {
+			message = "Success";
+			logger.debug(registration.getBusinessName() + " is successfully registered");
+		} else {
+			message = "Unsuccess";
+			logger.debug(registration.getBusinessName() + " is not registered");
+		}
+		return message;
+
+	}
+
+	// Customer registered
+	@POST
+	@Path("/customerRegistration")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String customerRegisteration(UserAccount registration) {
+		logger.debug("Entering to customerRegisteration method");
+		
+		String userName = registration.getUserName();
+		if(userName.charAt(0) == '['){
+			registration.setUserName( userName.substring(1, userName.length()-1));
+			registration.setPassword(registration.getPassword().substring(1, registration.getPassword().length()-1));
+			registration.setCustFirstName(registration.getCustFirstName().substring(1,registration.getCustFirstName().length()-1));
+			registration.setCustLastName(registration.getCustLastName().substring(1, registration.getCustLastName().length()-1));
+			registration.setEmail(registration.getEmail().substring(1, registration.getEmail().length()-1));
+			registration.setPhone(registration.getPhone().substring(1, registration.getPhone().length()-1));
+		}
+		String message = null;
+		// Calling addCustomer method to registered customer
+		Long customerId = registrationService.addCustomer(registration);
+		if(customerId != 0){
+			message = "Success";
+		logger.debug(customerId + " is successfully registered");
+		}else{
+			message ="Unsuccess";
+			
+		}
+		return message;
+
+	}
+}

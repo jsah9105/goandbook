@@ -1,0 +1,75 @@
+/**
+ * 
+ */
+package com.sagarmatha.controller;
+
+import java.util.List;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import com.sagarmatha.bean.Business;
+import com.sagarmatha.bean.Customer;
+import com.sagarmatha.bean.LogInInfo;
+import com.sagarmatha.bean.LoginReturnDetail;
+import com.sagarmatha.dao.LoginService;
+
+
+
+/**
+ * @author jitendra
+ *
+ */
+@Path("/login")
+public class LoginController {
+	LoginService loginservice = new LoginService();
+	
+	/* Customer Login*/
+	@POST
+	@Path("/loginUser")
+	@Produces(MediaType.APPLICATION_JSON)
+	public LoginReturnDetail userLogIn(LogInInfo userLogin) {
+		String userName = userLogin.getUserName();
+		if(userName.charAt(0) == '['){
+			userLogin.setUserName( userName.substring(1, userName.length()-1));
+			userLogin.setPassword(userLogin.getPassword().substring(1, userLogin.getPassword().length()-1));
+		}
+		
+//		String [] token =userName.split("[");
+//		if(token[0] = )
+		LoginReturnDetail loginretun = new LoginReturnDetail();
+		Customer customer = new Customer();
+		
+		 customer =	loginservice.getCustomerLogin(userLogin);
+		 loginretun.setId(customer.getCustomerId());
+		 loginretun.setName(customer.getCustFirstName());
+//		 loginretun.setId(12L);
+//		 loginretun.setName("ram");
+		
+		return loginretun;
+		
+	}
+	
+	/* Client Login*/
+	@POST
+	@Path("/loginBusiness")
+	@Produces(MediaType.APPLICATION_JSON)
+	public LoginReturnDetail businessLogIn(LogInInfo businessLogin) {
+		LoginReturnDetail loginretun = new LoginReturnDetail();
+		Business business = new Business();
+		
+		business = loginservice.getBusinessLogin(businessLogin);
+//		loginretun.setId(business.getBusinessId());
+//		loginretun.setName(business.getBusinessName());
+		loginretun.setId(12L);
+		loginretun.setName("ram");
+		
+		return loginretun;
+		
+	}
+	
+
+}

@@ -2062,3 +2062,665 @@
 2017-01-12 08:35:11,627 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
 2017-01-12 08:35:11,627 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
 2017-01-12 08:35:11,640 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-12 19:24:50,710 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-12 19:24:50,717 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-12 19:24:50,719 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-12 19:24:50,719 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-12 19:24:50,720 [Worker-60] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-12 19:24:50,720 [Worker-60] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-12 19:24:50,743 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-12 19:25:01,244 [Worker-58] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-12 19:25:01,245 [Worker-58] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-12 19:25:11,329 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-12 19:25:11,330 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-12 19:25:11,331 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-12 19:25:11,331 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-13 14:44:56,774 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 14:44:56,775 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-13 14:44:56,776 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 14:44:56,776 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-13 14:45:07,784 [Worker-229] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-13 14:45:07,785 [Worker-229] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-13 14:45:11,355 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 14:45:11,355 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-13 14:45:11,359 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 14:45:11,359 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-13 14:45:11,360 [Worker-224] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-13 14:45:11,360 [Worker-224] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-13 14:45:11,368 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 14:45:41,682 [Worker-230] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-13 14:45:41,684 [Worker-230] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-13 14:45:44,356 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 14:45:44,357 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-13 14:45:44,360 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 14:45:44,360 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-13 14:45:44,360 [Worker-230] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-13 14:45:44,360 [Worker-230] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-13 14:45:44,367 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 14:45:49,277 [Worker-229] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-13 14:45:49,277 [Worker-229] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-13 14:46:05,476 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 14:46:05,478 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-13 14:46:05,480 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 14:46:05,480 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-13 15:57:45,036 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-01-13 16:01:15,729 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 16:01:15,737 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-13 16:01:15,743 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 16:01:15,743 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-13 16:01:17,266 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 16:01:17,270 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-13 16:01:17,272 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 16:01:17,272 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-13 19:01:51,240 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-01-13 19:50:48,680 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-01-13 19:52:01,584 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-01-13 19:52:06,432 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 19:52:06,439 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-13 19:52:06,445 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 19:52:06,445 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-13 19:52:22,233 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 19:52:22,239 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-13 19:52:22,240 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 19:52:22,240 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-13 19:53:25,422 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-01-13 19:53:29,103 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 19:53:29,107 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-13 19:53:29,114 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 19:53:29,114 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-13 19:53:30,427 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 19:53:30,428 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-13 19:53:30,429 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 19:53:30,429 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-13 19:54:48,523 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-01-13 19:54:52,203 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 19:54:52,207 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-13 19:54:52,212 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 19:54:52,212 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-13 19:54:53,571 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 19:54:53,573 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-13 19:54:53,575 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-13 19:54:53,575 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 08:38:38,688 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:38:38,689 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 08:38:38,692 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:38:38,692 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 08:38:52,435 [Worker-180] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 08:38:52,436 [Worker-180] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 08:38:54,711 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:38:54,715 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 08:38:54,721 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:38:54,721 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 08:38:54,725 [Worker-181] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 08:38:54,725 [Worker-181] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 08:38:54,751 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:39:10,910 [Worker-184] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 08:39:10,910 [Worker-184] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 08:39:23,501 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:39:23,502 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 08:39:23,503 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:39:23,503 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 08:42:30,174 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:42:30,176 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 08:42:30,177 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:42:30,177 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 08:42:38,591 [Worker-182] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 08:42:38,591 [Worker-182] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 08:42:40,550 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:42:40,551 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 08:42:40,555 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:42:40,555 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 08:42:40,556 [Worker-181] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 08:42:40,556 [Worker-181] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 08:42:40,562 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:42:49,925 [Worker-188] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 08:42:49,925 [Worker-188] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 08:43:02,426 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:43:02,427 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 08:43:02,428 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:43:02,429 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 08:49:31,896 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:49:31,896 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 08:49:31,899 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:49:31,899 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 08:49:39,827 [Worker-185] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 08:49:39,827 [Worker-185] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 08:49:41,676 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:49:41,677 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 08:49:41,682 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:49:41,682 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 08:49:41,682 [Worker-189] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 08:49:41,682 [Worker-189] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 08:49:41,689 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:49:49,731 [Worker-186] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 08:49:49,731 [Worker-186] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 08:50:01,890 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:50:01,892 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 08:50:01,893 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 08:50:01,894 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:33:56,866 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:33:56,867 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 10:33:56,867 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:33:56,868 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:34:06,049 [Worker-220] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 10:34:06,049 [Worker-220] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 10:34:07,611 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:34:07,612 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 10:34:07,617 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:34:07,617 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:34:07,617 [Worker-209] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 10:34:07,617 [Worker-209] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 10:34:07,628 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:37:25,754 [Worker-209] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 10:37:25,754 [Worker-209] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 10:37:36,524 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:37:36,526 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 10:37:36,527 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:37:36,527 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:47:08,555 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:47:08,557 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 10:47:08,558 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:47:08,558 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:47:14,197 [Worker-218] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 10:47:14,197 [Worker-218] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 10:47:15,759 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:47:15,759 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 10:47:15,763 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:47:15,764 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:47:15,764 [Worker-228] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 10:47:15,764 [Worker-228] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 10:47:15,767 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:47:23,601 [Worker-223] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 10:47:23,602 [Worker-223] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 10:47:34,218 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:47:34,219 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 10:47:34,220 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:47:34,220 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:49:56,621 [Worker-209] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 10:49:56,621 [Worker-209] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 10:49:58,165 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:49:58,166 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 10:49:58,170 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:49:58,170 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:49:58,171 [Worker-218] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 10:49:58,171 [Worker-218] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 10:49:58,176 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:50:04,151 [Worker-230] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 10:50:04,151 [Worker-230] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 10:50:14,755 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:50:14,758 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 10:50:14,758 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:50:14,758 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:54:07,156 [Worker-230] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for letgetbook
+2017-01-15 10:54:07,279 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:54:07,279 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 10:54:07,283 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:54:07,283 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:54:07,283 [Worker-225] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 10:54:07,283 [Worker-225] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 10:54:07,288 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:54:31,150 [Worker-218] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 10:54:31,151 [Worker-218] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 10:54:32,740 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:54:32,741 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 10:54:32,742 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:54:32,743 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:54:32,743 [Worker-209] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 10:54:32,743 [Worker-209] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 10:54:32,748 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:54:43,126 [Worker-228] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for letgetbook
+2017-01-15 10:54:43,292 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:54:43,292 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 10:54:43,294 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:54:43,294 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:54:43,294 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 10:54:43,294 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 10:54:43,297 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:54:55,551 [Worker-225] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 10:54:55,551 [Worker-225] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 10:55:10,208 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:55:10,211 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 10:55:10,212 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:55:10,212 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:58:06,672 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:58:06,674 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 10:58:06,676 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:58:06,677 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:58:13,686 [Worker-209] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 10:58:13,686 [Worker-209] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 10:58:15,241 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:58:15,242 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 10:58:15,245 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:58:15,245 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 10:58:15,245 [Worker-209] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 10:58:15,245 [Worker-209] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 10:58:15,248 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:58:27,187 [Worker-209] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 10:58:27,187 [Worker-209] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 10:58:41,586 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:58:41,586 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 10:58:41,587 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 10:58:41,587 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:23:16,773 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:23:16,774 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 12:23:16,776 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:23:16,776 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:23:23,608 [Worker-241] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 12:23:23,608 [Worker-241] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 12:23:25,369 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:23:25,370 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 12:23:25,374 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:23:25,374 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:23:25,374 [Worker-259] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 12:23:25,375 [Worker-259] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 12:23:25,383 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:23:31,864 [Worker-256] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 12:23:31,864 [Worker-256] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 12:23:47,185 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:23:47,187 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 12:23:47,188 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:23:47,189 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:24:35,687 [Worker-257] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 12:24:35,687 [Worker-257] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 12:24:37,377 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:24:37,378 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 12:24:37,383 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:24:37,383 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:24:37,383 [Worker-257] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 12:24:37,383 [Worker-257] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 12:24:37,387 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:24:42,496 [Worker-259] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 12:24:42,496 [Worker-259] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 12:24:57,547 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:24:57,548 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 12:24:57,549 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:24:57,549 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:28:45,213 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:28:45,214 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 12:28:45,214 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:28:45,215 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:29:01,593 [Worker-256] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 12:29:01,593 [Worker-256] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 12:29:03,467 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:29:03,468 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 12:29:03,473 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:29:03,473 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:29:03,473 [Worker-241] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 12:29:03,473 [Worker-241] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 12:29:03,476 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:29:19,162 [Worker-241] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 12:29:19,162 [Worker-241] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 12:29:34,787 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:29:34,790 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 12:29:34,790 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:29:34,790 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:50:55,212 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:50:55,214 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 12:50:55,215 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:50:55,215 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:51:03,515 [Worker-259] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 12:51:03,515 [Worker-259] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 12:51:05,405 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:51:05,406 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 12:51:05,409 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:51:05,409 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:51:05,409 [Worker-263] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 12:51:05,409 [Worker-263] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 12:51:05,414 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:51:13,696 [Worker-258] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 12:51:13,696 [Worker-258] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 12:51:29,487 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:51:29,488 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 12:51:29,489 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:51:29,489 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:57:11,841 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:57:11,842 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 12:57:11,843 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:57:11,843 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:57:17,552 [Worker-259] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 12:57:17,552 [Worker-259] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 12:57:19,422 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:57:19,423 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 12:57:19,427 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:57:19,427 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:57:19,427 [Worker-265] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 12:57:19,427 [Worker-265] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 12:57:19,433 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:57:28,986 [Worker-261] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 12:57:28,987 [Worker-261] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 12:57:32,288 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:57:32,289 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 12:57:32,289 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:57:32,289 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:57:59,045 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:57:59,045 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 12:57:59,049 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:57:59,049 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:58:04,691 [Worker-258] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 12:58:04,692 [Worker-258] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 12:58:06,480 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:58:06,480 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 12:58:06,483 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:58:06,484 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 12:58:06,484 [Worker-266] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 12:58:06,484 [Worker-266] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 12:58:06,487 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:58:12,976 [Worker-261] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 12:58:12,976 [Worker-261] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 12:58:28,609 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:58:28,610 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 12:58:28,611 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 12:58:28,611 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 13:02:19,619 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:02:19,621 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 13:02:19,623 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:02:19,623 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 13:02:25,477 [Worker-257] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 13:02:25,477 [Worker-257] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 13:02:27,302 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:02:27,302 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 13:02:27,307 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:02:27,307 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 13:02:27,307 [Worker-258] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 13:02:27,307 [Worker-258] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 13:02:27,314 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:02:35,112 [Worker-257] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 13:02:35,113 [Worker-257] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 13:02:50,906 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:02:50,906 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 13:02:50,908 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:02:50,908 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 13:06:06,958 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:06:06,958 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 13:06:06,960 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:06:06,961 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 13:06:21,302 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:06:21,302 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 13:06:21,303 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:06:21,303 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 13:06:29,723 [Worker-265] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 13:06:29,723 [Worker-265] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 13:06:31,457 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:06:31,457 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 13:06:31,469 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:06:31,469 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 13:06:31,469 [Worker-259] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 13:06:31,469 [Worker-259] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 13:06:31,472 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:06:45,038 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-01-15 13:06:45,432 [Worker-258] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 13:06:45,432 [Worker-258] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install
+2017-01-15 13:34:20,309 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:34:20,310 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 13:34:20,310 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:34:20,310 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 13:34:42,643 [Worker-257] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 13:34:42,643 [Worker-257] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 13:34:44,459 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:34:44,460 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 13:34:44,464 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:34:44,464 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 13:34:44,464 [Worker-258] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 13:34:44,464 [Worker-258] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 13:34:44,472 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:34:53,374 [Worker-267] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 13:34:53,374 [Worker-267] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 13:35:09,229 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:35:09,230 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 13:35:09,231 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:35:09,231 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 13:45:43,776 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:45:43,779 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 13:45:43,780 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:45:43,780 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 13:46:09,911 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:46:09,914 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 13:46:09,916 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:46:09,916 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 13:47:25,986 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:47:25,988 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 13:47:25,989 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:47:25,989 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 13:47:31,146 [Worker-271] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 13:47:31,147 [Worker-271] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-15 13:47:32,975 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:47:32,978 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 13:47:32,980 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:47:32,980 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 13:47:32,981 [Worker-258] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-15 13:47:32,981 [Worker-258] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-15 13:47:32,989 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:47:39,163 [Worker-270] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-15 13:47:39,163 [Worker-270] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-15 13:47:54,245 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:47:54,246 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-15 13:47:54,246 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 13:47:54,246 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-15 14:32:59,043 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 14:32:59,043 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-15 14:32:59,044 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-15 14:32:59,044 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 01:22:08,493 [Worker-433] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 01:22:08,497 [Worker-433] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 01:22:08,536 [Worker-433] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 01:22:08,537 [Worker-433] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 01:22:16,905 [Worker-433] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 01:22:16,905 [Worker-433] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-16 01:22:19,469 [Worker-422] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 01:22:19,469 [Worker-422] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 01:22:19,472 [Worker-422] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 01:22:19,472 [Worker-422] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 01:22:19,472 [Worker-422] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-16 01:22:19,472 [Worker-422] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-16 01:22:19,484 [Worker-422] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 01:22:33,169 [Worker-422] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 01:22:33,169 [Worker-422] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-16 01:22:52,854 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 01:22:52,855 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 01:22:52,856 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 01:22:52,856 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 01:35:48,347 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 01:35:48,347 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 01:35:48,348 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 01:35:48,348 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 01:36:10,416 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 01:36:10,416 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 01:36:10,417 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 01:36:10,417 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 01:36:20,225 [Worker-432] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 01:36:20,226 [Worker-432] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-16 01:36:29,478 [Worker-435] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 01:36:29,480 [Worker-435] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-16 01:36:44,879 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 01:36:44,880 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 01:36:44,881 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 01:36:44,882 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 01:36:44,882 [Worker-430] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-16 01:36:44,882 [Worker-430] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-16 01:36:44,892 [Worker-430] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 02:27:08,413 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-01-16 08:25:43,160 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 08:25:43,165 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 08:25:43,177 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 08:25:43,177 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 08:25:44,701 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 08:25:44,703 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 08:25:44,704 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 08:25:44,705 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 08:25:51,388 [Worker-50] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 08:25:51,389 [Worker-50] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-16 08:25:53,296 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 08:25:53,298 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 08:25:53,303 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 08:25:53,303 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 08:25:53,305 [Worker-43] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-16 08:25:53,306 [Worker-43] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-16 08:25:53,325 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 08:26:01,483 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 08:26:01,483 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-16 08:26:11,610 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 08:26:11,611 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 08:26:11,612 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 08:26:11,612 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 09:18:07,576 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:18:07,577 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 09:18:07,578 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:18:07,578 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 09:19:54,939 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:19:54,940 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 09:19:54,940 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:19:54,940 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 09:26:15,456 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:26:15,458 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 09:26:15,460 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:26:15,460 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 09:26:27,608 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:26:27,608 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 09:26:27,609 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:26:27,609 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 09:26:57,544 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:26:57,544 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 09:26:57,545 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:26:57,545 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 09:27:58,080 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:27:58,080 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 09:27:58,081 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:27:58,081 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 09:29:29,078 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:29:29,080 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 09:29:29,094 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:29:29,094 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 09:31:43,283 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:31:43,285 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 09:31:43,288 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:31:43,288 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 09:31:45,767 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:31:45,768 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 09:31:45,768 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:31:45,768 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 09:32:06,211 [Worker-81] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 09:32:06,211 [Worker-81] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-16 09:32:08,432 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:32:08,432 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 09:32:08,437 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:32:08,437 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 09:32:08,437 [Worker-74] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-16 09:32:08,437 [Worker-74] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-16 09:32:08,442 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:32:15,052 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 09:32:15,052 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-16 09:32:25,507 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:32:25,509 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 09:32:25,510 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 09:32:25,510 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 10:07:51,173 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:07:51,176 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 10:07:51,177 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:07:51,177 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 10:07:56,164 [Worker-104] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 10:07:56,164 [Worker-104] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-16 10:07:57,937 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:07:57,940 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 10:07:57,942 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:07:57,942 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 10:07:57,942 [Worker-102] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-16 10:07:57,942 [Worker-102] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-16 10:07:57,945 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:08:07,944 [Worker-101] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 10:08:07,944 [Worker-101] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-16 10:08:19,624 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:08:19,625 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 10:08:19,626 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:08:19,626 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 10:18:33,887 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:18:33,889 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 10:18:33,890 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:18:33,890 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 10:19:30,044 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:19:30,045 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 10:19:30,045 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:19:30,046 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 10:21:20,920 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:21:20,920 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 10:21:20,922 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:21:20,922 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 10:22:14,968 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:22:14,968 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 10:22:14,969 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:22:14,969 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 10:22:26,185 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:22:26,185 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-16 10:22:26,186 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:22:26,186 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 10:22:36,347 [Worker-100] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 10:22:36,347 [Worker-100] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-16 10:22:38,081 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:22:38,081 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 10:22:38,086 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:22:38,086 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 10:22:38,086 [Worker-110] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-16 10:22:38,086 [Worker-110] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-16 10:22:38,091 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:22:48,773 [Worker-111] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 10:22:48,773 [Worker-111] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-16 10:23:00,008 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:23:00,008 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 10:23:00,009 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:23:00,009 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 10:23:28,497 [Worker-111] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 10:23:28,498 [Worker-111] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-16 10:23:30,205 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:23:30,205 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 10:23:30,209 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:23:30,210 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 10:23:30,210 [Worker-107] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-16 10:23:30,210 [Worker-107] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-16 10:23:30,212 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:23:43,547 [Worker-109] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 10:23:43,549 [Worker-109] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-16 10:24:01,737 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:24:01,741 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 10:24:01,744 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 10:24:01,744 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 13:43:23,444 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 13:43:23,448 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-01-16 13:43:23,449 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 13:43:23,449 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 13:43:29,523 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 13:43:29,523 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-01-16 13:43:29,524 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 13:43:29,524 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 13:43:39,146 [Worker-222] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 13:43:39,146 [Worker-222] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-16 13:43:40,982 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 13:43:40,982 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 13:43:40,987 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 13:43:40,988 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 13:43:40,988 [Worker-218] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-16 13:43:40,988 [Worker-218] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-16 13:43:40,994 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 13:43:50,631 [Worker-221] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 13:43:50,631 [Worker-221] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-16 13:44:02,897 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 13:44:02,900 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 13:44:02,900 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 13:44:02,901 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 14:26:32,710 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 14:26:32,711 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-01-16 14:26:32,713 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 14:26:32,713 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 14:26:38,954 [Worker-256] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 14:26:38,954 [Worker-256] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-01-16 14:26:40,749 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 14:26:40,751 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 14:26:40,754 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 14:26:40,754 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
+2017-01-16 14:26:40,754 [Worker-256] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of letgetbook
+2017-01-16 14:26:40,754 [Worker-256] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for letgetbook
+2017-01-16 14:26:40,761 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 14:26:47,778 [Worker-250] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/jitendra/git/goandbook/letgetbook
+2017-01-16 14:26:47,778 [Worker-250] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-01-16 14:26:59,452 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 14:26:59,453 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-01-16 14:26:59,454 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-16 14:26:59,454 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jitendra/git/goandbook/letgetbook/src/test/resources
