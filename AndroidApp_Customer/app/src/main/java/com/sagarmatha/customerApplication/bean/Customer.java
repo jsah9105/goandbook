@@ -130,7 +130,4 @@ public  class Customer {
 		this.gender = gender;
 	}
 
-
-
-
 }

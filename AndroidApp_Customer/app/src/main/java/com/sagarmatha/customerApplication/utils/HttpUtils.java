@@ -10,7 +10,7 @@ import com.loopj.android.http.RequestParams;
  */
 
 public class HttpUtils {
-    private static final String BASE_URL = "http://192.168.0.6:8080/letgetbook/rest/";
+    private static final String BASE_URL = "http://35.167.253.217:8181/letgetbook/rest/";
 
     private static AsyncHttpClient client = new AsyncHttpClient();
 

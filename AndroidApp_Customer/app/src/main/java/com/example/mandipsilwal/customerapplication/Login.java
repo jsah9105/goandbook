@@ -96,8 +96,8 @@ public class Login extends AppCompatActivity {
     }
 
     /**
-     * Method that performs restfull web service invocations
-     * Once the response is recieved from the backend
+     * Method that performs restful web service invocations
+     * Once the response is received from the backend
      * on success - allows the user to perform the features that requires user login
      * on Failure - notifies the user to enter the valid user credentials
      *
@@ -119,16 +119,14 @@ public class Login extends AppCompatActivity {
                 try {                           // gets the information of the user after successful login
                     if(response.getString("custFirstName") == "null"){
                         startActivity(new Intent(getApplicationContext(), Login.class));
-
                     }else {
-                        //ObjectMapper mapper = new ObjectMapper();
-
+                        String name = null;
                         customerLogged = new Gson().fromJson(response.toString(),Customer.class);
-                        int userID = response.getInt("customerId");
-                        System.out.println("The user id: " + userID);
-
-                        //String name = response.getString("custFirstName")+" " +response.getString("custLastName");
-                        String name = customerLogged.getCustFirstName() + " " + customerLogged.getCustLastName();
+                        if(customerLogged.getCustMiddleName() == null){
+                            name = customerLogged.getCustFirstName() + " " + customerLogged.getCustLastName();
+                        }else {
+                            name = customerLogged.getCustFirstName() + " " + customerLogged.getCustMiddleName() + " " + customerLogged.getCustLastName();
+                        }
                         displayName = name;
                         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(intent);
@@ -136,7 +134,6 @@ public class Login extends AppCompatActivity {
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-
             }
 
             @Override
@@ -146,6 +143,4 @@ public class Login extends AppCompatActivity {
             }
         });
     }
-
-
 }

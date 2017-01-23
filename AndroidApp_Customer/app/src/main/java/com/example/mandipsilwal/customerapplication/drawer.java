@@ -32,12 +32,16 @@ public class drawer extends AppCompatActivity
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
+        setDisplayName(Login.displayName);
+    }
+
+    public void setDisplayName(String name){
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         View hView = navigationView.getHeaderView(0);
         TextView nav_user = (TextView) hView.findViewById(R.id.display_name);
 
-        nav_user.setText(Login.displayName);
+        nav_user.setText(name);
     }
 
     @Override
@@ -69,6 +73,10 @@ public class drawer extends AppCompatActivity
             return true;
         }
 
+        if (id == R.id.menuSearch) {
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -83,7 +91,11 @@ public class drawer extends AppCompatActivity
         } else if (id == R.id.nav_specials) {
 
         } else if (id == R.id.nav_profile) {
-
+            if(Login.customerLogged == null){
+                startActivity(new Intent(getApplicationContext(), Login.class));
+            }else{
+                startActivity(new Intent(getApplicationContext(), customer_profile.class));
+            }
         } else if (id == R.id.nav_feedback) {
 
         }else if (id == R.id.nav_help) {

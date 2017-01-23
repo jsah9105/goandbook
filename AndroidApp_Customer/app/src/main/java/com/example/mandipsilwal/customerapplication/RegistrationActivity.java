@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,7 +27,9 @@ public class RegistrationActivity extends AppCompatActivity {
     private static EditText emailRegister;
     private static EditText phoneRegister;
     private static EditText firstName;
+    private static EditText middleName;
     private static EditText lastName;
+    String genderRegister = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,10 +43,17 @@ public class RegistrationActivity extends AppCompatActivity {
                 registerUser();
             }
         });
-
-
     }
 
+    /**
+     * This method takes the input of user information from the registration page in the
+     * android application. Upon successful entries each EditText field in converted to string
+     * and the value is hold on to string variables. Then, these values are converted to JSON
+     * format before invoking registerRestCall() method to perform the rest call for registering the
+     * user to the system.
+     *
+     * no return
+     */
     public void registerUser() {
         // Gets the username and password typed by the user in the andorid app and sets it to EditText variables
         userNameRegister = (EditText) findViewById(R.id.userNameRegister);
@@ -50,13 +61,14 @@ public class RegistrationActivity extends AppCompatActivity {
         emailRegister = (EditText) findViewById(R.id.emailRegister);
         phoneRegister = (EditText) findViewById(R.id.phoneRegister);
         firstName = (EditText) findViewById(R.id.firstName);
+        middleName = (EditText) findViewById(R.id.middleName);
         lastName = (EditText) findViewById(R.id.lastName);
-
 
         // converts the username and password from EditText to String and stores it to string variables
         String userName = userNameRegister.getText().toString();
         String password = passwordRegister.getText().toString();
         String custFirstName = firstName.getText().toString();
+        String custMiddleName = middleName.getText().toString();
         String custLastName =lastName.getText().toString();
         String email = emailRegister.getText().toString();
         String phone = phoneRegister.getText().toString();
@@ -65,9 +77,11 @@ public class RegistrationActivity extends AppCompatActivity {
         params.put("userName",userName );
         params.put("password", password);
         params.put("custFirstName", custFirstName);
+        params.put("custMiddleName", custMiddleName);
         params.put("custLastName", custLastName);
         params.put("email",email );
         params.put("phone", phone);
+        params.put("gender", genderRegister);
         params.setUseJsonStreamer(true);                // converts the param object to JSON object which will be sent as a request
 
         try {
@@ -77,6 +91,16 @@ public class RegistrationActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Method that performs restful web service invocations
+     * Once the response is received from the backend
+     * on success - registers the user to the system and redirects the user to login page
+     * on Failure - notifies the user to enter the valid user credentials
+     *
+     * @throws JSONException
+     *
+     * no return
+     */
     public void registerRestCall(RequestParams params) throws JSONException {
 
         String url = "registration/customerRegistration";
@@ -93,19 +117,9 @@ public class RegistrationActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), Login.class));
 
                     } else {
-                        //ObjectMapper mapper = new ObjectMapper();
-
-                        //  customerLogged = new Gson().fromJson(response.toString(),Customer.class);
                         String errorMsg = response.getString("message");
                         TextView errorView = (TextView) findViewById(R.id.error);
                         errorView.setText(errorMsg);
-//                        Toast.makeText(getApplicationContext(),errorMsg, Toast.LENGTH_SHORT).show();
-
-                        //String name = response.getString("custFirstName")+" " +response.getString("custLastName");
-                        //  String name = customerLogged.getCustFirstName() + " " + customerLogged.getCustLastName();
-                        // displayName = name;
-//                        Intent intent = new Intent(getApplicationContext(), RegistrationActivity.class);
-//                        startActivity(intent);
                     }
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -119,6 +133,32 @@ public class RegistrationActivity extends AppCompatActivity {
                  System.out.println("failed here .....");
             }
         });
+    }
+
+    /**
+     * This method is invoked when either of the radio button, i.e. male or female is checked on the
+     * registration page. Then, a string variable is used to hold the value
+     * and passed to the database via rest api call on successful registration.
+     *
+     *@param view
+     *
+     * no return
+     */
+    public void onRadioButtonClicked(View view) {
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+
+        // Check which radio button was clicked
+        switch(view.getId()) {
+            case R.id.radioMale:
+                if (checked)
+                    genderRegister = "Male";
+                    break;
+            case R.id.radioFemale:
+                if (checked)
+                    genderRegister = "Female";
+                    break;
+        }
     }
 }
 
